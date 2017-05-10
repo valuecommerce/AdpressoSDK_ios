@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/valuecommerce/AdpressoSDK_ios'
   s.license          = { :type => 'Copyright', :text => 'Copyright © 2016 ValueCommerce Co., Ltd. All Rights Reserved.' }
   s.author           = { 'Valuecommerce' => 'devteam2@valuecommerce.co.jp' }
-  s.source           = { :git => 'git@ghe.valuecommerce.com:mitakahashi/AdpressoSDK_ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/valuecommerce/AdpressoSDK_ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
 
