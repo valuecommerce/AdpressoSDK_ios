@@ -1,0 +1,1 @@
+../../../AdpressoSDK-ios/AdpressoSDK-ios/Classes/AdpressoAdManager.h

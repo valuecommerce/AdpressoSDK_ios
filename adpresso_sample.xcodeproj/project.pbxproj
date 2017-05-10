@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		9314EB872DF7F4B07B7C3D17 /* libPods-adpresso_sample_Objective-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 669A11E48E47CEC06335BC95 /* libPods-adpresso_sample_Objective-C.a */; };
+		963011B51A419034007C1416 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963011B41A419034007C1416 /* Images.xcassets */; };
+		BBC672491EA6E73500E85784 /* AdpressoSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC672481EA6E73500E85784 /* AdpressoSampleAppDelegate.m */; };
+		BBC672581EA6E75400E85784 /* BannerCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6724B1EA6E75400E85784 /* BannerCodeViewController.m */; };
+		BBC672591EA6E75400E85784 /* BannerIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6724D1EA6E75400E85784 /* BannerIBViewController.m */; };
+		BBC6725A1EA6E75400E85784 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6724F1EA6E75400E85784 /* InterstitialViewController.m */; };
+		BBC6725B1EA6E75400E85784 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC672511EA6E75400E85784 /* RootViewController.m */; };
+		BBC6725C1EA6E75400E85784 /* RotatingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC672531EA6E75400E85784 /* RotatingNavigationController.m */; };
+		BBC6725D1EA6E75400E85784 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC672551EA6E75400E85784 /* TableViewController.m */; };
+		BBC6725E1EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC672571EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.m */; };
+		BBC672651EA6E7DD00E85784 /* BannerCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC6725F1EA6E7DD00E85784 /* BannerCodeViewController.xib */; };
+		BBC672661EA6E7DD00E85784 /* BannerIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC672601EA6E7DD00E85784 /* BannerIBViewController.xib */; };
+		BBC672671EA6E7DD00E85784 /* InterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC672611EA6E7DD00E85784 /* InterstitialViewController.xib */; };
+		BBC672681EA6E7DD00E85784 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC672621EA6E7DD00E85784 /* Launch Screen.xib */; };
+		BBC672691EA6E7DD00E85784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC672631EA6E7DD00E85784 /* Main.storyboard */; };
+		BBC6726A1EA6E7DD00E85784 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC672641EA6E7DD00E85784 /* TableViewController.xib */; };
+		BBEB74A81EA7383A00AF1BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEB74A71EA7383A00AF1BB2 /* Assets.xcassets */; };
+		BBEB74B51EA7398C00AF1BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74B41EA7398C00AF1BB2 /* AppDelegate.swift */; };
+		BBEB74BC1EA739A700AF1BB2 /* BannerCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74B61EA739A700AF1BB2 /* BannerCodeViewController.swift */; };
+		BBEB74BD1EA739A700AF1BB2 /* BannerIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74B71EA739A700AF1BB2 /* BannerIBViewController.swift */; };
+		BBEB74BE1EA739A700AF1BB2 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74B81EA739A700AF1BB2 /* InterstitialViewController.swift */; };
+		BBEB74BF1EA739A700AF1BB2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74B91EA739A700AF1BB2 /* MasterViewController.swift */; };
+		BBEB74C01EA739A700AF1BB2 /* RotatingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74BA1EA739A700AF1BB2 /* RotatingNavigationController.swift */; };
+		BBEB74C11EA739A700AF1BB2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB74BB1EA739A700AF1BB2 /* TableViewController.swift */; };
+		BBEB74C51EA73BA200AF1BB2 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC672621EA6E7DD00E85784 /* Launch Screen.xib */; };
+		BBEB74D01EA73F4800AF1BB2 /* InterstitialViewControllerSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB74CB1EA73F4800AF1BB2 /* InterstitialViewControllerSwift.xib */; };
+		BBEB74D11EA73F4800AF1BB2 /* MainSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB74CC1EA73F4800AF1BB2 /* MainSwift.storyboard */; };
+		BBEB74D21EA73F4800AF1BB2 /* TableViewControllerSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB74CD1EA73F4800AF1BB2 /* TableViewControllerSwift.xib */; };
+		BBEB74D41EA7458300AF1BB2 /* BannerIBViewControllerSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB74CA1EA73F4800AF1BB2 /* BannerIBViewControllerSwift.xib */; };
+		BBEB74D51EA745AC00AF1BB2 /* BannerCodeViewControllerSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB74C91EA73F4800AF1BB2 /* BannerCodeViewControllerSwift.xib */; };
+		BBFB36E81EA8479D00236405 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C0D110B50B2B003B04C6 /* MapKit.framework */; };
+		BBFB36EB1EA8547600236405 /* 1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFB36EA1EA8547600236405 /* 1242_2208.png */; };
+		BBFB36EC1EA8547600236405 /* 1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFB36EA1EA8547600236405 /* 1242_2208.png */; };
+		E338A1DEADC3AC463737E101 /* Pods_adpresso_sample_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF178EEC491AD7209119BB7E /* Pods_adpresso_sample_Swift.framework */; };
+		F190F14315105F0100C21CDD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190F14215105F0100C21CDD /* CoreTelephony.framework */; };
+		F1D74A0D17407B2300512F18 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D74A0C17407B2300512F18 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F1E1C03110B4E646003B04C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C03010B4E646003B04C6 /* SystemConfiguration.framework */; };
+		F1E1C0D210B50B2B003B04C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C0D110B50B2B003B04C6 /* MapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F1E1C35910B53F74003B04C6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C35810B53F74003B04C6 /* OpenGLES.framework */; };
+		F1E1C3AB10B5433A003B04C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C3AA10B5433A003B04C6 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EE588347E0087BEFBD5C600 /* libPods-adpresso_sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-adpresso_sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* adpresso_sample_Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adpresso_sample_Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "adlantis_sample/Support Files/main.m"; sourceTree = "<group>"; };
+		3440C1BCBF2E05C95761337F /* Pods-adpresso_sample_Objective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample_Objective-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample_Objective-C/Pods-adpresso_sample_Objective-C.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1D278349330BBDDA686F6B /* Pods-adpresso_sample_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample_swift/Pods-adpresso_sample_swift.release.xcconfig"; sourceTree = "<group>"; };
+		5E09C79A291CCC53E909A02F /* Pods-adpresso_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample/Pods-adpresso_sample.release.xcconfig"; sourceTree = "<group>"; };
+		669A11E48E47CEC06335BC95 /* libPods-adpresso_sample_Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-adpresso_sample_Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F878193B2DF9FBBDE268D6 /* Pods_adpresso_sample_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adpresso_sample_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107310486CEB800E47090 /* adpresso_sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "adpresso_sample-Info.plist"; path = "adlantis_sample/Support Files/adpresso_sample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8F8FD5DA642532117B8331D7 /* Pods-adpresso_sample_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample_Swift/Pods-adpresso_sample_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		963011B41A419034007C1416 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A55ED462C948A8E330D7D7A /* Pods-adpresso_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample/Pods-adpresso_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		B1BFAE81C8A156109E7E7BDB /* Pods-adpresso_sample_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample_Swift/Pods-adpresso_sample_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BB27451D1EA6E9AE00A52FAA /* adpresso_sample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adpresso_sample_Prefix.pch; path = "adlantis_sample/Support Files/adpresso_sample_Prefix.pch"; sourceTree = "<group>"; };
+		BBC672471EA6E73500E85784 /* AdpressoSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdpressoSampleAppDelegate.h; path = adlantis_sample/Classes/AppDelegate/AdpressoSampleAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BBC672481EA6E73500E85784 /* AdpressoSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdpressoSampleAppDelegate.m; path = adlantis_sample/Classes/AppDelegate/AdpressoSampleAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BBC6724A1EA6E75400E85784 /* BannerCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BannerCodeViewController.h; path = adlantis_sample/Classes/ViewControllers/BannerCodeViewController.h; sourceTree = SOURCE_ROOT; };
+		BBC6724B1EA6E75400E85784 /* BannerCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BannerCodeViewController.m; path = adlantis_sample/Classes/ViewControllers/BannerCodeViewController.m; sourceTree = SOURCE_ROOT; };
+		BBC6724C1EA6E75400E85784 /* BannerIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BannerIBViewController.h; path = adlantis_sample/Classes/ViewControllers/BannerIBViewController.h; sourceTree = SOURCE_ROOT; };
+		BBC6724D1EA6E75400E85784 /* BannerIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BannerIBViewController.m; path = adlantis_sample/Classes/ViewControllers/BannerIBViewController.m; sourceTree = SOURCE_ROOT; };
+		BBC6724E1EA6E75400E85784 /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterstitialViewController.h; path = adlantis_sample/Classes/ViewControllers/InterstitialViewController.h; sourceTree = SOURCE_ROOT; };
+		BBC6724F1EA6E75400E85784 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterstitialViewController.m; path = adlantis_sample/Classes/ViewControllers/InterstitialViewController.m; sourceTree = SOURCE_ROOT; };
+		BBC672501EA6E75400E85784 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = adlantis_sample/Classes/ViewControllers/RootViewController.h; sourceTree = SOURCE_ROOT; };
+		BBC672511EA6E75400E85784 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = adlantis_sample/Classes/ViewControllers/RootViewController.m; sourceTree = SOURCE_ROOT; };
+		BBC672521EA6E75400E85784 /* RotatingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotatingNavigationController.h; path = adlantis_sample/Classes/ViewControllers/RotatingNavigationController.h; sourceTree = SOURCE_ROOT; };
+		BBC672531EA6E75400E85784 /* RotatingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RotatingNavigationController.m; path = adlantis_sample/Classes/ViewControllers/RotatingNavigationController.m; sourceTree = SOURCE_ROOT; };
+		BBC672541EA6E75400E85784 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = adlantis_sample/Classes/ViewControllers/TableViewController.h; sourceTree = SOURCE_ROOT; };
+		BBC672551EA6E75400E85784 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = adlantis_sample/Classes/ViewControllers/TableViewController.m; sourceTree = SOURCE_ROOT; };
+		BBC672561EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IOS7ViewControllerEdgeSupport.h"; path = "adlantis_sample/Classes/ViewControllers/UIViewController+IOS7ViewControllerEdgeSupport.h"; sourceTree = SOURCE_ROOT; };
+		BBC672571EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IOS7ViewControllerEdgeSupport.m"; path = "adlantis_sample/Classes/ViewControllers/UIViewController+IOS7ViewControllerEdgeSupport.m"; sourceTree = SOURCE_ROOT; };
+		BBC6725F1EA6E7DD00E85784 /* BannerCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BannerCodeViewController.xib; path = Resources/BannerCodeViewController.xib; sourceTree = "<group>"; };
+		BBC672601EA6E7DD00E85784 /* BannerIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BannerIBViewController.xib; path = Resources/BannerIBViewController.xib; sourceTree = "<group>"; };
+		BBC672611EA6E7DD00E85784 /* InterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InterstitialViewController.xib; path = Resources/InterstitialViewController.xib; sourceTree = "<group>"; };
+		BBC672621EA6E7DD00E85784 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "Resources/Launch Screen.xib"; sourceTree = "<group>"; };
+		BBC672631EA6E7DD00E85784 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Resources/Main.storyboard; sourceTree = "<group>"; };
+		BBC672641EA6E7DD00E85784 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewController.xib; path = Resources/TableViewController.xib; sourceTree = "<group>"; };
+		BBEB74931EA714AC00AF1BB2 /* AdpressoHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdpressoHeaders.h; path = ../AdpressoHeaders.h; sourceTree = "<group>"; };
+		BBEB749E1EA7383A00AF1BB2 /* adpresso_sample_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adpresso_sample_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB74A71EA7383A00AF1BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEB74AC1EA7383A00AF1BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB74B41EA7398C00AF1BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBEB74B61EA739A700AF1BB2 /* BannerCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerCodeViewController.swift; path = ../adpresso_sample_swift/Classes/ViewControllers/BannerCodeViewController.swift; sourceTree = "<group>"; };
+		BBEB74B71EA739A700AF1BB2 /* BannerIBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerIBViewController.swift; path = ../adpresso_sample_swift/Classes/ViewControllers/BannerIBViewController.swift; sourceTree = "<group>"; };
+		BBEB74B81EA739A700AF1BB2 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterstitialViewController.swift; path = ../adpresso_sample_swift/Classes/ViewControllers/InterstitialViewController.swift; sourceTree = "<group>"; };
+		BBEB74B91EA739A700AF1BB2 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = ../adpresso_sample_swift/Classes/ViewControllers/MasterViewController.swift; sourceTree = "<group>"; };
+		BBEB74BA1EA739A700AF1BB2 /* RotatingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotatingNavigationController.swift; path = ../adpresso_sample_swift/Classes/ViewControllers/RotatingNavigationController.swift; sourceTree = "<group>"; };
+		BBEB74BB1EA739A700AF1BB2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../adpresso_sample_swift/Classes/ViewControllers/TableViewController.swift; sourceTree = "<group>"; };
+		BBEB74C91EA73F4800AF1BB2 /* BannerCodeViewControllerSwift.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BannerCodeViewControllerSwift.xib; path = ../adpresso_sample_swift/Resources/BannerCodeViewControllerSwift.xib; sourceTree = "<group>"; };
+		BBEB74CA1EA73F4800AF1BB2 /* BannerIBViewControllerSwift.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BannerIBViewControllerSwift.xib; path = ../adpresso_sample_swift/Resources/BannerIBViewControllerSwift.xib; sourceTree = "<group>"; };
+		BBEB74CB1EA73F4800AF1BB2 /* InterstitialViewControllerSwift.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InterstitialViewControllerSwift.xib; path = ../adpresso_sample_swift/Resources/InterstitialViewControllerSwift.xib; sourceTree = "<group>"; };
+		BBEB74CC1EA73F4800AF1BB2 /* MainSwift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainSwift.storyboard; path = ../adpresso_sample_swift/Resources/MainSwift.storyboard; sourceTree = "<group>"; };
+		BBEB74CD1EA73F4800AF1BB2 /* TableViewControllerSwift.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewControllerSwift.xib; path = ../adpresso_sample_swift/Resources/TableViewControllerSwift.xib; sourceTree = "<group>"; };
+		BBFB36EA1EA8547600236405 /* 1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1242_2208.png; path = Resources/1242_2208.png; sourceTree = "<group>"; };
+		BF178EEC491AD7209119BB7E /* Pods_adpresso_sample_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adpresso_sample_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E969EE514E275A3A8F7771C3 /* Pods-adpresso_sample_Objective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample_Objective-C.release.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample_Objective-C/Pods-adpresso_sample_Objective-C.release.xcconfig"; sourceTree = "<group>"; };
+		EAED48BCA6D15FC3076A4732 /* Pods-adpresso_sample_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample_swift/Pods-adpresso_sample_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		F190F14215105F0100C21CDD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F1D74A0C17407B2300512F18 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F1E1C03010B4E646003B04C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F1E1C0D110B50B2B003B04C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F1E1C35810B53F74003B04C6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F1E1C3AA10B5433A003B04C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D74A0D17407B2300512F18 /* AdSupport.framework in Frameworks */,
+				F190F14315105F0100C21CDD /* CoreTelephony.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				F1E1C03110B4E646003B04C6 /* SystemConfiguration.framework in Frameworks */,
+				F1E1C0D210B50B2B003B04C6 /* MapKit.framework in Frameworks */,
+				F1E1C35910B53F74003B04C6 /* OpenGLES.framework in Frameworks */,
+				F1E1C3AB10B5433A003B04C6 /* QuartzCore.framework in Frameworks */,
+				9314EB872DF7F4B07B7C3D17 /* libPods-adpresso_sample_Objective-C.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB749B1EA7383A00AF1BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFB36E81EA8479D00236405 /* MapKit.framework in Frameworks */,
+				E338A1DEADC3AC463737E101 /* Pods_adpresso_sample_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB6323861E9F773600CD3B32 /* AppDelegate */,
+				BB6323851E9F771200CD3B32 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* adpresso_sample_Objective-C.app */,
+				BBEB749E1EA7383A00AF1BB2 /* adpresso_sample_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB74D61EA74DC800AF1BB2 /* adpresso_sample_Objective-C */,
+				BBEB749F1EA7383A00AF1BB2 /* adpresso_sample_Swift */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				94E3A080E4FE6F35D16BEAE3 /* Pods */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB27451D1EA6E9AE00A52FAA /* adpresso_sample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBFB36EA1EA8547600236405 /* 1242_2208.png */,
+				BBC6725F1EA6E7DD00E85784 /* BannerCodeViewController.xib */,
+				BBC672601EA6E7DD00E85784 /* BannerIBViewController.xib */,
+				BBC672611EA6E7DD00E85784 /* InterstitialViewController.xib */,
+				BBC672621EA6E7DD00E85784 /* Launch Screen.xib */,
+				BBC672631EA6E7DD00E85784 /* Main.storyboard */,
+				BBC672641EA6E7DD00E85784 /* TableViewController.xib */,
+				8D1107310486CEB800E47090 /* adpresso_sample-Info.plist */,
+				963011B41A419034007C1416 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D74A0C17407B2300512F18 /* AdSupport.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				F1E1C3AA10B5433A003B04C6 /* QuartzCore.framework */,
+				F1E1C03010B4E646003B04C6 /* SystemConfiguration.framework */,
+				F1E1C0D110B50B2B003B04C6 /* MapKit.framework */,
+				F1E1C35810B53F74003B04C6 /* OpenGLES.framework */,
+				F190F14215105F0100C21CDD /* CoreTelephony.framework */,
+				0EE588347E0087BEFBD5C600 /* libPods-adpresso_sample.a */,
+				73F878193B2DF9FBBDE268D6 /* Pods_adpresso_sample_swift.framework */,
+				BF178EEC491AD7209119BB7E /* Pods_adpresso_sample_Swift.framework */,
+				669A11E48E47CEC06335BC95 /* libPods-adpresso_sample_Objective-C.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94E3A080E4FE6F35D16BEAE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A55ED462C948A8E330D7D7A /* Pods-adpresso_sample.debug.xcconfig */,
+				5E09C79A291CCC53E909A02F /* Pods-adpresso_sample.release.xcconfig */,
+				EAED48BCA6D15FC3076A4732 /* Pods-adpresso_sample_swift.debug.xcconfig */,
+				4B1D278349330BBDDA686F6B /* Pods-adpresso_sample_swift.release.xcconfig */,
+				8F8FD5DA642532117B8331D7 /* Pods-adpresso_sample_Swift.debug.xcconfig */,
+				B1BFAE81C8A156109E7E7BDB /* Pods-adpresso_sample_Swift.release.xcconfig */,
+				3440C1BCBF2E05C95761337F /* Pods-adpresso_sample_Objective-C.debug.xcconfig */,
+				E969EE514E275A3A8F7771C3 /* Pods-adpresso_sample_Objective-C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB6323851E9F771200CD3B32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6724A1EA6E75400E85784 /* BannerCodeViewController.h */,
+				BBC6724B1EA6E75400E85784 /* BannerCodeViewController.m */,
+				BBC6724C1EA6E75400E85784 /* BannerIBViewController.h */,
+				BBC6724D1EA6E75400E85784 /* BannerIBViewController.m */,
+				BBC6724E1EA6E75400E85784 /* InterstitialViewController.h */,
+				BBC6724F1EA6E75400E85784 /* InterstitialViewController.m */,
+				BBC672501EA6E75400E85784 /* RootViewController.h */,
+				BBC672511EA6E75400E85784 /* RootViewController.m */,
+				BBC672521EA6E75400E85784 /* RotatingNavigationController.h */,
+				BBC672531EA6E75400E85784 /* RotatingNavigationController.m */,
+				BBC672541EA6E75400E85784 /* TableViewController.h */,
+				BBC672551EA6E75400E85784 /* TableViewController.m */,
+				BBC672561EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.h */,
+				BBC672571EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB6323861E9F773600CD3B32 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BBC672471EA6E73500E85784 /* AdpressoSampleAppDelegate.h */,
+				BBC672481EA6E73500E85784 /* AdpressoSampleAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BBEB749F1EA7383A00AF1BB2 /* adpresso_sample_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB74931EA714AC00AF1BB2 /* AdpressoHeaders.h */,
+				BBEB74B11EA7394F00AF1BB2 /* Classes */,
+				BBEB74A71EA7383A00AF1BB2 /* Assets.xcassets */,
+				BBEB74C81EA73ECD00AF1BB2 /* Resouces */,
+				BBEB74AC1EA7383A00AF1BB2 /* Info.plist */,
+			);
+			path = adpresso_sample_Swift;
+			sourceTree = "<group>";
+		};
+		BBEB74B11EA7394F00AF1BB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB74B21EA7395900AF1BB2 /* AppDelegate */,
+				BBEB74B31EA7396000AF1BB2 /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BBEB74B21EA7395900AF1BB2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB74B41EA7398C00AF1BB2 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BBEB74B31EA7396000AF1BB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB74B61EA739A700AF1BB2 /* BannerCodeViewController.swift */,
+				BBEB74B71EA739A700AF1BB2 /* BannerIBViewController.swift */,
+				BBEB74B81EA739A700AF1BB2 /* InterstitialViewController.swift */,
+				BBEB74B91EA739A700AF1BB2 /* MasterViewController.swift */,
+				BBEB74BA1EA739A700AF1BB2 /* RotatingNavigationController.swift */,
+				BBEB74BB1EA739A700AF1BB2 /* TableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BBEB74C81EA73ECD00AF1BB2 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB74C91EA73F4800AF1BB2 /* BannerCodeViewControllerSwift.xib */,
+				BBEB74CA1EA73F4800AF1BB2 /* BannerIBViewControllerSwift.xib */,
+				BBEB74CB1EA73F4800AF1BB2 /* InterstitialViewControllerSwift.xib */,
+				BBEB74CC1EA73F4800AF1BB2 /* MainSwift.storyboard */,
+				BBEB74CD1EA73F4800AF1BB2 /* TableViewControllerSwift.xib */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+		BBEB74D61EA74DC800AF1BB2 /* adpresso_sample_Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+			);
+			name = "adpresso_sample_Objective-C";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* adpresso_sample_Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "adpresso_sample_Objective-C" */;
+			buildPhases = (
+				E9ED28B963529B81689D5EC1 /* [CP] Check Pods Manifest.lock */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				F705FD9B1904C793840D81D2 /* [CP] Embed Pods Frameworks */,
+				1E8DD93D98AC74B3C7B56633 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "adpresso_sample_Objective-C";
+			productName = adlantis_sample;
+			productReference = 1D6058910D05DD3D006BFB54 /* adpresso_sample_Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEB749D1EA7383A00AF1BB2 /* adpresso_sample_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB74AD1EA7383A00AF1BB2 /* Build configuration list for PBXNativeTarget "adpresso_sample_Swift" */;
+			buildPhases = (
+				F6F798C9D859537C10B0CB38 /* [CP] Check Pods Manifest.lock */,
+				BBEB749A1EA7383A00AF1BB2 /* Sources */,
+				BBEB749B1EA7383A00AF1BB2 /* Frameworks */,
+				BBEB749C1EA7383A00AF1BB2 /* Resources */,
+				149B1D78404467D808B3F90F /* [CP] Embed Pods Frameworks */,
+				6EF0F11939568A3521074583 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adpresso_sample_Swift;
+			productName = adpresso_sample_Swift;
+			productReference = BBEB749E1EA7383A00AF1BB2 /* adpresso_sample_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = C76956R737;
+						LastSwiftMigration = 0820;
+					};
+					BBEB749D1EA7383A00AF1BB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C76956R737;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "adpresso_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* adpresso_sample_Objective-C */,
+				BBEB749D1EA7383A00AF1BB2 /* adpresso_sample_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC672651EA6E7DD00E85784 /* BannerCodeViewController.xib in Resources */,
+				963011B51A419034007C1416 /* Images.xcassets in Resources */,
+				BBC672691EA6E7DD00E85784 /* Main.storyboard in Resources */,
+				BBC672671EA6E7DD00E85784 /* InterstitialViewController.xib in Resources */,
+				BBFB36EB1EA8547600236405 /* 1242_2208.png in Resources */,
+				BBC672661EA6E7DD00E85784 /* BannerIBViewController.xib in Resources */,
+				BBC672681EA6E7DD00E85784 /* Launch Screen.xib in Resources */,
+				BBC6726A1EA6E7DD00E85784 /* TableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB749C1EA7383A00AF1BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB74D51EA745AC00AF1BB2 /* BannerCodeViewControllerSwift.xib in Resources */,
+				BBEB74D41EA7458300AF1BB2 /* BannerIBViewControllerSwift.xib in Resources */,
+				BBEB74D21EA73F4800AF1BB2 /* TableViewControllerSwift.xib in Resources */,
+				BBEB74D01EA73F4800AF1BB2 /* InterstitialViewControllerSwift.xib in Resources */,
+				BBFB36EC1EA8547600236405 /* 1242_2208.png in Resources */,
+				BBEB74D11EA73F4800AF1BB2 /* MainSwift.storyboard in Resources */,
+				BBEB74C51EA73BA200AF1BB2 /* Launch Screen.xib in Resources */,
+				BBEB74A81EA7383A00AF1BB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149B1D78404467D808B3F90F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adpresso_sample_Swift/Pods-adpresso_sample_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E8DD93D98AC74B3C7B56633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adpresso_sample_Objective-C/Pods-adpresso_sample_Objective-C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF0F11939568A3521074583 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adpresso_sample_Swift/Pods-adpresso_sample_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9ED28B963529B81689D5EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F798C9D859537C10B0CB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F705FD9B1904C793840D81D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adpresso_sample_Objective-C/Pods-adpresso_sample_Objective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC6725C1EA6E75400E85784 /* RotatingNavigationController.m in Sources */,
+				BBC6725E1EA6E75400E85784 /* UIViewController+IOS7ViewControllerEdgeSupport.m in Sources */,
+				BBC672581EA6E75400E85784 /* BannerCodeViewController.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				BBC6725B1EA6E75400E85784 /* RootViewController.m in Sources */,
+				BBC6725A1EA6E75400E85784 /* InterstitialViewController.m in Sources */,
+				BBC672491EA6E73500E85784 /* AdpressoSampleAppDelegate.m in Sources */,
+				BBC672591EA6E75400E85784 /* BannerIBViewController.m in Sources */,
+				BBC6725D1EA6E75400E85784 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB749A1EA7383A00AF1BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB74BF1EA739A700AF1BB2 /* MasterViewController.swift in Sources */,
+				BBEB74C11EA739A700AF1BB2 /* TableViewController.swift in Sources */,
+				BBEB74BE1EA739A700AF1BB2 /* InterstitialViewController.swift in Sources */,
+				BBEB74B51EA7398C00AF1BB2 /* AppDelegate.swift in Sources */,
+				BBEB74BC1EA739A700AF1BB2 /* BannerCodeViewController.swift in Sources */,
+				BBEB74BD1EA739A700AF1BB2 /* BannerIBViewController.swift in Sources */,
+				BBEB74C01EA739A700AF1BB2 /* RotatingNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3440C1BCBF2E05C95761337F /* Pods-adpresso_sample_Objective-C.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = C76956R737;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "adlantis_sample/Support Files/adpresso_sample_Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/adlantis_sample/Support Files/adpresso_sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "adpresso_sample_Objective-C";
+				SWIFT_OBJC_BRIDGING_HEADER = "adpresso_sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E969EE514E275A3A8F7771C3 /* Pods-adpresso_sample_Objective-C.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = C76956R737;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "adlantis_sample/Support Files/adpresso_sample_Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/adlantis_sample/Support Files/adpresso_sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "adpresso_sample_Objective-C";
+				SWIFT_OBJC_BRIDGING_HEADER = "adpresso_sample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BBEB74AE1EA7383A00AF1BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8FD5DA642532117B8331D7 /* Pods-adpresso_sample_Swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C76956R737;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = adpresso_sample_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.adpresso-sample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/AdpressoHeaders.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBEB74AF1EA7383A00AF1BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BFAE81C8A156109E7E7BDB /* Pods-adpresso_sample_Swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C76956R737;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = adpresso_sample_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.adpresso-sample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/AdpressoHeaders.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "adpresso_sample_Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB74AD1EA7383A00AF1BB2 /* Build configuration list for PBXNativeTarget "adpresso_sample_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB74AE1EA7383A00AF1BB2 /* Debug */,
+				BBEB74AF1EA7383A00AF1BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "adpresso_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
