@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AdpressoSDK-ios'
-  s.version          = '2.0.3'
+  s.version          = '2.0.4'
   s.summary          = 'Adpresso SDK for iOS'
 
   s.homepage         = 'https://github.com/valuecommerce/AdpressoSDK_ios'
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'AdpressoSDK-ios/Classes/*.h'
   s.public_header_files = 'AdpressoSDK-ios/Classes/*.h'
+ s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => 'Pods/AdpressoSDK-ios/AdpressoSDK-ios/Classes/AdpressoHeaders.h' }
   s.vendored_libraries = 'libadlantis_ios_sdk.a'
   
   s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'QuartzCore'
