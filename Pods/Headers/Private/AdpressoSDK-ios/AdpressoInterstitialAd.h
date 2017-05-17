@@ -1,0 +1,1 @@
+../../../AdpressoSDK-ios/AdpressoSDK-ios/Classes/AdpressoInterstitialAd.h
