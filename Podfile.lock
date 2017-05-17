@@ -1,12 +1,12 @@
 PODS:
-  - AdpressoSDK-ios (2.0.0)
+  - AdpressoSDK-ios (2.0.4)
 
 DEPENDENCIES:
   - AdpressoSDK-ios
 
 SPEC CHECKSUMS:
-  AdpressoSDK-ios: 9abe95555d7095625ded73deb6e4f240d102fc39
+  AdpressoSDK-ios: 5db339822b04bb7ee35d396fcfb0b9a325add7b0
 
-PODFILE CHECKSUM: 6f30a51fceb8444bed4fed1eb91fa5e2c6eac85c
+PODFILE CHECKSUM: 47565b83a4f2f8ecc94ee411562e7227e2e00a56
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

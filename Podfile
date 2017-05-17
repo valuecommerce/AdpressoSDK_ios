@@ -1,6 +1,6 @@
 project 'adpresso_sample.xcodeproj'
 
-source 'https://github.com/valuecommerce/vcSpecs.git'
+#source 'https://github.com/valuecommerce/vcSpecs.git'
 
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'

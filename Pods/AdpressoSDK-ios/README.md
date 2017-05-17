@@ -14,10 +14,6 @@ target '{YOUR_PROJECT_TARGET}' do
 end
 ```
 
-## Author
-
-Valuecommerce , devteam2@valuecommerce.co.jp
-
 ## License
 
-Copyright © 2016 ValueCommerce Co., Ltd. All Rights Reserved.
+Copyright © 2017 ValueCommerce Co., Ltd. All Rights Reserved.
