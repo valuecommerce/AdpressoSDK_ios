@@ -7,7 +7,6 @@ AdpressoSDK-ios is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-source 'https://github.com/valuecommerce/vcSpecs.git'
 
 target '{YOUR_PROJECT_TARGET}' do
   pod "AdpressoSDK-ios"
